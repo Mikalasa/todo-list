@@ -1,0 +1,134 @@
+/************/
+/* todoCard rotate down */
+/************/
+.todo-rotate-down-animation {
+    transform-origin: left;
+    animation: dropAndRotate 1s ease 0.5s forwards;
+}
+
+.todo-rotate-down-animation.todoCompletedBtn {
+    transition: opacity 0.3s ease;
+}
+
+@keyframes dropAndRotate {
+    from {
+        opacity: 1;
+        transform: rotate(0deg) translateY(0);
+    }
+    to {
+        opacity: 0;
+        transform: rotate(90deg) translateY(100%);
+    }
+}
+
+
+/************/
+/* todoCard rotate up */
+/************/
+.todo-rotate-up-animation {
+    transform-origin: left;
+    animation: upAndRotate 1s ease 0.5s forwards;
+}
+
+.todo-rotate-up-animation.todoCompletedBtn {
+    transition: opacity 0.3s ease;
+}
+
+@keyframes upAndRotate {
+    from {
+        opacity: 1;
+        transform: rotate(0deg) translateY(0);
+    }
+    to {
+        opacity: 0;
+        transform: rotate(-90deg) translateY(100%);
+    }
+}
+
+/************/
+/* todoCard fallDown */
+/************/
+.todo-fall-down-animation {
+    animation: todoFallDown 1s ease;
+}
+.todo-fall-down-animation span {
+    opacity: 0.5;
+    transition: opacity 0.5s ease;
+}
+
+@keyframes todoFallDown {
+    from {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    to {
+        opacity: 0;
+        transform: translateY(50rem);
+    }
+}
+
+
+
+/************/
+/* unComplete to complete */
+/************/
+/* for unComplete to complete */
+.todo-complete span {
+    position: relative;
+    opacity: 0.5;
+}
+@keyframes drawLine {
+    from {
+        opacity: 0.4;
+        width: 0;
+    }
+    to {
+        opacity: 1;
+        width: 90%;
+    }
+}
+/* for unComplete to complete, line through */
+.todo-complete span::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 0;
+    height: 1px;
+    background: black;
+    animation: drawLine 0.5s ease forwards;
+}
+
+/************/
+/* complete to unComplete */
+/************/
+/* for complete to unComplete */
+.todo-unComplete span {
+    position: relative;
+}
+.todo-complete-lineThrough {
+
+}
+@keyframes cancelDrawLine {
+    from {
+        opacity: 1;
+        width: 90%;
+    }
+    to {
+        opacity: 0;
+        width: 0;
+    }
+}
+/* for complete to unComplete, cancel line through */
+.todo-unComplete span::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 0;
+    height: 1px;
+    background: black;
+    animation: cancelDrawLine 0.5s ease forwards;
+}
+
+

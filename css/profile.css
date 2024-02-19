@@ -1,0 +1,120 @@
+.Profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    height: 100%;
+    background-color: #fff6e7;
+}
+.profile-image-box {
+    position: relative;
+    width: 100%;
+    height: 12rem;
+}
+.profile-demo-cycle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 12rem;
+    height: 12rem;
+    border-radius: 12rem;
+    background-color: #ffd979;
+}
+.profile-cycle {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 10%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 12rem;
+    height: 12rem;
+    border-radius: 12rem;
+    /*background-color: #23d5ab;*/
+    z-index: 2;
+}
+.profile-cycle-text {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.profile-text-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.profile-text {
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin: 0.5rem 0;
+    color: #FFD979FF;
+}
+.profile-notify-text {
+    font-size: 1rem;
+    color: #989898;
+}
+.profile-name {
+    font-size: 2rem;
+    font-weight: bolder;
+    color: #b49954;
+}
+
+.profile-button-box {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.profile-button {
+    width: 8rem;
+    height: 4rem;
+    margin-top: 1rem;
+    border: none;
+    border-radius: 0.5rem;
+    background-color: #007bff;
+    color: white;
+    font-size: 1.6rem;
+    cursor: pointer;
+    box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.2);
+    transition: width 0.3s ease, height 0.3s ease, background-color 0.3s, opacity 0.3s ease;
+}
+.profile-loginout-button {
+    width: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration:none;
+    background-color: rgba(255, 0, 0, 0.8);
+}
+
+.profile-button:hover {
+    background-color: #0056b3;
+}
+
+.profile-loginout-button:hover {
+    background-color: #be0000;
+}
+
+.profile-button:active {
+    width: 7.7rem;
+    height: 3.7rem;
+    box-shadow: 0 0.1rem 0.2rem rgba(0, 0, 0, 0.2) inset;
+}
+
+/* background gif */
+.profile-backgif {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 25rem;
+    height: auto;
+    z-index: 1;
+}

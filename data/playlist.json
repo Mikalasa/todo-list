@@ -1,0 +1,50 @@
+[
+  {
+    "id": "0",
+    "author": "周深",
+    "title": "问花",
+    "time": "4:54",
+    "img": "../../static/player/Album Covers/0.jpg",
+    "songSrc": "../../static/player/Album/问花-周深.mp3"
+  },
+  {
+    "id": "1",
+    "author": "龚琳娜",
+    "title": "千秋梦",
+    "time": "4:32",
+    "img": "../../static/player/Album Covers/1.jpg",
+    "songSrc": "../../static/player/Album/千秋梦-龚琳娜.mp3"
+  },
+  {
+    "id": "2",
+    "author": "闻人听書",
+    "title": "虞兮叹",
+    "time": "3:30",
+    "img": "../../static/player/Album Covers/2.jpg",
+    "songSrc": "../../static/player/Album/虞兮叹-闻人听書_.mp3"
+  },
+  {
+    "id": "3",
+    "author": "KatieSky",
+    "title": "Monsters",
+    "time": "3:37",
+    "img": "../../static/player/Album Covers/3.jpg",
+    "songSrc": "../../static/player/Album/Monsters-KatieSky.mp3"
+  },
+  {
+    "id": "4",
+    "author": "Kid LAROI",
+    "title": "STAY",
+    "time": "2:21",
+    "img": "../../static/player/Album Covers/4.jpg",
+    "songSrc": "../../static/player/Album/STAY-KidLAROI.mp3"
+  },
+  {
+    "id": "5",
+    "author": "栀煦",
+    "title": "错位时空",
+    "time": "3:31",
+    "img": "../../static/player/Album Covers/5.jpg",
+    "songSrc": "../../static/player/Album/错位时空-栀煦.mp3"
+  }
+]

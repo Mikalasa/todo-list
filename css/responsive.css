@@ -1,0 +1,120 @@
+@media (max-width: 1200px) {
+    .todo-input-form button {
+        margin-left: 1rem;
+    }
+}
+@media (max-width: 1044px) {
+    .profile-backgif {
+        width: 20rem;
+    }
+}
+@media (max-width: 900px) {
+    .CONTAINER {
+        flex-direction: column;
+        width: 360px;
+        padding: 1rem;
+        border-radius: 1rem;
+    }
+    .CONTAINER-RESPONSE-BOX {
+        flex-direction: column;
+        width: 100%;
+        padding: 1rem;
+        border-radius: 1rem;
+        overflow-y: auto;
+    }
+    .CONTAINER-RIGHT {
+        margin-left: 0;
+    }
+
+    /* todoList part */
+    .CONTAINER-LEFT {
+        width: 100%;
+    }
+    .Todo-Down {
+        margin-top: 2rem;
+        height: 40rem;
+    }
+
+    /* RIGHT */
+    .CONTAINER-RIGHT {
+        width: 100%;
+    }
+    .CONTAINER-RIGHT-TOOL-AREA {
+        width: 100%;
+        flex-direction: column;
+    }
+    .Statistics {
+        width: 100%;
+    }
+    .Profile {
+        width: 100%;
+        height: 50rem;
+        margin-top: 2rem;
+    }
+
+    /* Statistics part */
+    .Statistics {
+        flex-direction: column;
+    }
+    .Process-Bar-Box {
+        width: 70%;
+    }
+
+    /* profile */
+    .Profile {
+        height: 70rem;
+    }
+    .Music-Player {
+        flex-direction: column;
+        justify-content: normal;
+        height: 88%;
+    }
+    .Part {
+        width: 80%;
+        height: 30rem;
+        margin-top: 3rem;
+    }
+}
+
+
+
+
+
+/************/
+/* Scroll bar */
+/************/
+.CONTAINER-RESPONSE-BOX::-webkit-scrollbar {
+    width: 0.5rem;
+    transition: background-color 0.3s ease;
+}
+
+.CONTAINER-RESPONSE-BOX.scrolling::-webkit-scrollbar {
+    width: 0.5rem;
+}
+
+.CONTAINER-RESPONSE-BOX::-webkit-scrollbar-track {
+    background: transparent;
+    border-radius: 0.5rem;
+}
+
+.CONTAINER-RESPONSE-BOX::-webkit-scrollbar-thumb {
+    background-color: rgba(164, 162, 162, 0);
+    border-radius: 4rem;
+}
+
+.CONTAINER-RESPONSE-BOX.scrolling::-webkit-scrollbar-thumb {
+    background-color: rgba(239, 239, 239, 0.87);
+    border-radius: 4rem;
+}
+
+.CONTAINER-RESPONSE-BOX::-webkit-scrollbar-thumb:hover {
+    background: rgba(218, 218, 218, 0.7);
+}
+
+.hide {
+    display: none;
+}
+
+/*.temp-hide {*/
+/*    display: none;*/
+/*}*/
