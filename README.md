@@ -16,5 +16,12 @@
 
 ## Set up the project
 - use a tool such as XAMPP
-- copy the all project files and folders (of root folder) into the htdocs folder
+- copy the all project files and folders (of root folder) into the htdocs (if using XAMPP) folder
+- find the following code in ```index.php``` and replace the values with your database information
+```PHP
+$host = 'localhost';
+$user = 'root';
+$password = '';
+$db   = 'todo';
+```
 - open ```localhost/index.php``` in browser
