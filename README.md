@@ -6,7 +6,8 @@
 ### _**[Click here to see the live demo](https://stringhotpot.com/)**_
 
 ## Introduction
-This web app was developed using vanilla JavaScript, HTML, and CSS, with PHP as the backend language. It includes the following features:
+This web app was developed using vanilla JavaScript, HTML, and CSS, with PHP as the backend language. 
+### It includes the following features:
 - Login and registration system
 - CRUD functionality
 - Circular statistical display and UI animations
