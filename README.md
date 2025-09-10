@@ -3,7 +3,7 @@
 ![Todo Screenshot](./screenshot.png)
 
 ### _**It has been deployed on InfinityFree.**_
-### _**[Click here to see the live demo](https://stringhotpot.com/)**_
+### _**[Click here to see the live demo](https://to-do-list.wuaze.com/)**_
 
 ## Introduction
 This web app was developed using vanilla JavaScript, HTML, and CSS, with PHP as the backend language. 
