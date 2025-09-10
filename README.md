@@ -2,7 +2,7 @@
 
 ![Todo Screenshot](./screenshot.png)
 
-### _**It has been deployed on an AWS EC2 instance.**_
+### _**It has been deployed on InfinityFree.**_
 ### _**[Click here to see the live demo](https://stringhotpot.com/)**_
 
 ## Introduction
